@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body{
+  font-family: Arial, sans-serif;
+}
+ul { 
+    background-image: url(4c.png);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:rgb(255, 255, 255);
+    padding: 14px 17px;
+    text-decoration:none;
+    
+  }
+  li a:hover {
+    display: block;
+    background-color: #5e2eb8;
+    text-decoration:none;
+
+  }
+  .login {
+    float:right;
+  }
+  .login a{
+    display: block;
+  }
+
+  
